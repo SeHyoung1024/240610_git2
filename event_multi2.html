@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	window.onload = function(){
+			let btn = document.getElementById("btn");
+			//이벤트 리스너 등록
+			btn.addEventListener('click',show1);
+			btn.addEventListener('click',show2);
+	};
+	
+	function show1(){
+		alert("실행");
+	}
+
+	function show2(){
+		alert("실행2");
+	}
+
+
+</script>
+</head>
+<body>
+	<button id="btn">클릭</button>
+
+
+</body>
+</html>
