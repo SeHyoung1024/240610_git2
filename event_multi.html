@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+ 	window.onload = function(){
+
+	var clickbt = document.getElementById("clickbt");
+	
+	
+
+	function show1(){
+			alert("실행");
+	}
+
+	function show2(){
+			alert("실행2");
+	}
+	
+	clickbt = function(){
+		show1();
+		show2();
+};
+	}; 
+	
+	
+	
+		/* window.onload = function() {
+			var clickbt = document.getElementById("clickbt");
+
+			function show1() {
+				alert("실행");
+			}
+
+			function show2() {
+				alert("실행2");
+			}
+
+			clickbt.onclick = function() {
+				show1();
+				show2();
+			};
+		}; */
+	</script>
+</head>
+<body>
+<button id="clickbt">클릭</button>
+
+
+</body>
+</html>
